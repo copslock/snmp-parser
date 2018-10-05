@@ -10,8 +10,14 @@ repository = "https://github.com/rusticata/snmp-parser.git"
 
 [dependencies]
 nom = "^3.0"
-rusticata-macros = "1.0"
+# rusticata-macros = "1.0"
 der-parser = "1.0"
+
+
+[dependencies.rusticata-macros]
+# path = "../rusticata-macros"
+git = "https://github.com/copslock/rusticata-macros.git"
+
 
 [dev-dependencies]
 pretty_assertions = "0.5.0"
