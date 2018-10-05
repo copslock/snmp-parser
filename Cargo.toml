@@ -9,7 +9,7 @@ homepage = "https://github.com/rusticata/snmp-parser"
 repository = "https://github.com/rusticata/snmp-parser.git"
 
 [dependencies]
-nom = {version = "4.0", features = ["verbose-errors"]}
+nom = "^3.0"
 rusticata-macros = "1.0"
 der-parser = "1.0"
 
