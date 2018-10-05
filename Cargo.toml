@@ -13,26 +13,6 @@ nom = "^3.0"
 # rusticata-macros = "1.0"
 # der-parser = "1.0"
 
-
-[dependencies.rusticata-macros]
-# path = "../rusticata-macros"
-git = "https://github.com/copslock/rusticata-macros.git"
-
-[package]
-name = "snmp-parser"
-version = "0.2.0"
-description = "Parser for the SNMP protocol"
-license = "MIT/Apache-2.0"
-keywords = ["SNMP","protocol","parser","nom"]
-authors = ["Pierre Chifflier <chifflier@wzdftpd.net>"]
-homepage = "https://github.com/rusticata/snmp-parser"
-repository = "https://github.com/rusticata/snmp-parser.git"
-
-[dependencies]
-nom = "^3.0"
-# rusticata-macros = "1.0"
-# der-parser = "1.0"
-
 [dependencies.der-parser]
 # path = "../der-parser"
 git = "https://github.com/copslock/der-parser.git"
