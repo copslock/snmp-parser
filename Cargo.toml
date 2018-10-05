@@ -24,8 +24,3 @@ git = "https://github.com/copslock/rusticata-macros.git"
 
 [dev-dependencies]
 pretty_assertions = "0.5.0"
-
-
-
-[dev-dependencies]
-pretty_assertions = "0.5.0"
